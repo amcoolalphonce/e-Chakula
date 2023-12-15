@@ -8,3 +8,4 @@ Steps when writing the code
 3. Activate the virtual environment by using the command venv\scripts\activate
 4. Install django using pip install django
 5. Started a project lizzyFoods on the same directory using django-admin startproject lizzyFoods .
+6. Start an app called food using the cmd python manage.py  startapp food
