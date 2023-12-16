@@ -19,4 +19,8 @@ document.addEventListener('DOMContentLoaded', function ()
                         menu.classList.remove('is-active');
                         menuLinks.classList.remove('active');
                 }
+                else 
+                {
+                        //expand menu for larger screens
+                }
         }
