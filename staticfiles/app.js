@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function ()
         function toggleMenu()
         {
                 mobileMenu.classList.toggle('is-active');
-                menuLinks.classList.toggle('active');
+                navMenu.classList.toggle('active');
         }
 
         menu.addEventListener('click', toggleMenu);
