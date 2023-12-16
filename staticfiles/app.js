@@ -9,10 +9,11 @@ document.addEventListener('DOMContentLoaded', function ()
                 navMenu.classList.toggle('active');
         }
 
-        menu.addEventListener('click', toggleMenu);
+        mobileMenu.addEventListener('click', toggleMenu);
         window.addEventListener('resize', function ()
          {
                 const windowWidth = window.innerWidth;
+                
                 if (windowWidth<=768)
                 {
                         //collapse menu for small screens
