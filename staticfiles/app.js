@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', function ()
         window.addEventListener('resize', function ()
          {
                 const windowWidth = window.innerWidth;
-                
+
                 if (windowWidth<=768)
                 {
                         //collapse menu for small screens
-                        menu.classList.remove('is-active');
-                        menuLinks.classList.remove('active');
+                        mobileMenu.classList.remove('is-active');
+                        navMenu.classList.remove('active');
                 }
                 else 
                 {
