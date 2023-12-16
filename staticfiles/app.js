@@ -5,5 +5,6 @@ document.addEventListener('DOMContentLoaded', function ()
 
         function toggleMenu()
         {
-                menu.classList.toggle('is-active')
+                menu.classList.toggle('is-active');
+                menuLinks.classList.toggle('active');
         }
