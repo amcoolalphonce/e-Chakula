@@ -25,5 +25,5 @@ document.addEventListener('DOMContentLoaded', function ()
                         menu.classList.add('is-active');
                         menuLinks.classList.add('active');
                 }
-        });
-        }
+        });  
+});
