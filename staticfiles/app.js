@@ -16,5 +16,6 @@ document.addEventListener('DOMContentLoaded', function ()
                 if (windowWidth<=768)
                 {
                         //collapse menu for small screens
+                        menu.classList.remove('is-active');
                 }
         }
