@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function ()
                 else 
                 {
                         //expand menu for larger screens
-                        menu.classList.add('is-active');
-                        menuLinks.classList.add('active');
+                        mobileMenuclassList.add('is-active');
+                        navMenu.classList.add('active');
                 }
         });  
 });
