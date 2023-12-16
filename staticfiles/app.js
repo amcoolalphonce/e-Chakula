@@ -22,5 +22,6 @@ document.addEventListener('DOMContentLoaded', function ()
                 else 
                 {
                         //expand menu for larger screens
+                        menu.classList.add('is-active');
                 }
         }
