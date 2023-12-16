@@ -17,5 +17,6 @@ document.addEventListener('DOMContentLoaded', function ()
                 {
                         //collapse menu for small screens
                         menu.classList.remove('is-active');
+                        menuLinks.classList.remove('active');
                 }
         }
