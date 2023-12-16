@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function ()
  {
-        const menu = document.querySelector('#mobile-menu');
-        const menuLinks = document.querySelector('.nav-menu');
+        const mobileMenu = document.querySelector('#mobile-menu');
+        const navMenu = document.querySelector('.nav-menu');
 
         function toggleMenu()
         {
-                menu.classList.toggle('is-active');
+                mobileMenu.classList.toggle('is-active');
                 menuLinks.classList.toggle('active');
         }
 
