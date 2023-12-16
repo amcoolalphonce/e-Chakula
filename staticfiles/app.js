@@ -10,3 +10,5 @@ document.addEventListener('DOMContentLoaded', function ()
         }
 
         menu.addEventListener('click', toggleMenu);
+        window.addEventListener('resize', function () {
+                const windowWidth = window.innerWidth;
