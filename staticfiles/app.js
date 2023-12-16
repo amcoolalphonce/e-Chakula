@@ -8,3 +8,5 @@ document.addEventListener('DOMContentLoaded', function ()
                 menu.classList.toggle('is-active');
                 menuLinks.classList.toggle('active');
         }
+
+        menu.addEventListener('click', toggleMenu);
