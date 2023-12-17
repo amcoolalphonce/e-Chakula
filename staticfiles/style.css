@@ -173,3 +173,8 @@ navbar {
         }
 
 }
+
+.home{
+        position: absolute;
+        top: 0;
+}
