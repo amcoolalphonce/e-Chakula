@@ -2,7 +2,7 @@
         --darkgray: #000;
         --brightred: #F9423D;
         --white: #fff;
-        --lightred: #f9433dcc;
+        --lightred: #ff7c78cc;
 }
 
 * {
@@ -10,7 +10,13 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-
+}
+.home{
+        background-image: url("../static/home.jpg");
+        z-index: -1;
+        background-size: auto;
+        position: absolute;
+        background-repeat: no-repeat;
 }
 
 .nav-container {
