@@ -1,10 +1,3 @@
-:root {
-        --darkgray: #000;
-        --brightred: #F9423D;
-        --white: #fff;
-        --lightred: #f9433dcc;
-}
-
 * {
         font-family: 'Nunito', sans-serif;
         box-sizing: border-box;
@@ -180,6 +173,6 @@ navbar {
         left: 0;
         width: 100%;
         height: 100vh;
-        background-image: url("food/images/home.jpg");
+        background-image: url("../food/static/home.jpg");
         background-size: cover;
 }
