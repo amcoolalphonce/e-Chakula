@@ -13,6 +13,7 @@
 }
 .home{
         background-image: url("../static/home.jpg");
+        z-index: -1;
 }
 
 .nav-container {
