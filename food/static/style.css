@@ -22,3 +22,9 @@
          background-color: lightcoral;
          color: black;
  }
+ .topnav a.active {
+         background-color: black;
+         color: coral;
+         font-weight: bold;
+         animation: bounce 0.5s;
+ }
