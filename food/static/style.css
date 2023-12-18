@@ -10,3 +10,10 @@
                 text-align: left;
          }
  }
+ .topnav a {
+         float: left;
+         color: coral;
+         text-align: center;
+         padding: 14px 16px;
+         
+ }
