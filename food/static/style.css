@@ -1,3 +1,9 @@
+body{
+        background-image: url("../static/home.jpg");
+        background-size: cover;
+        background-position: inherit;
+        background-color: #8f8888;
+}
 .topnav {
         background-color: #000;
         overflow: hidden;
