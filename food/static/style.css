@@ -2,7 +2,7 @@ body{
         background-image: url("{% static 'home.jpg' %}");
         background-size: cover;
         background-position: center;
-        background-color: #f0f0f0;
+        background-color: #8f8888;
 }
 .topnav {
         background-color: #000;
