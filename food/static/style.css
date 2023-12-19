@@ -1,5 +1,6 @@
 body{
         background-image: url("{% static 'home.jpg' %}");
+        background-size: cover;
 }
 .topnav {
         background-color: #000;
