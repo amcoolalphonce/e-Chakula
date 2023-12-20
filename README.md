@@ -13,6 +13,7 @@ Create the apps urls.py file
 Run migrations after updating the models using python manage.py makemigrations
 Make migrations using python manage.py migrate
 Create a simple pizza model and update using the shell
+Create a superuser using manage.py createsuperuser
 
 THE NAVIGATION BAR
 ![Alt text](image.png)
