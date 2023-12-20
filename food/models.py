@@ -17,3 +17,8 @@ class Dishes(models.Model):
         price= models.DecimalField(max_digits = 4, decimal_places =2)
         dImage = models.URLField()
 
+class Special(models.Model):
+        name = models.CharField(max_length = 120)
+        price = models.DecimalField(max_digits = 4, decimal_places =2)
+        sImage = models.URLField()
+
