@@ -4,6 +4,11 @@
         background-position: inherit;
         background-color: #8f8888;
 }
+.home{
+        position: absolute;
+        top: 0;
+        left: o;
+}
 .topnav {
         background-color: #000;
         overflow: hidden;
