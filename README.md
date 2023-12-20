@@ -11,7 +11,8 @@ Steps when writing the code
 6. Start an app called food using the cmd python manage.py  startapp food
 Create the apps urls.py file
 Run migrations after updating the models using python manage.py makemigrations
-Mke migrations using python manage.py migrate
+Make migrations using python manage.py migrate
+Create a simple pizza model and update using the shell
 
 THE NAVIGATION BAR
 ![Alt text](image.png)
