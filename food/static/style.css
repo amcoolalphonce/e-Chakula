@@ -1,13 +1,16 @@
 .body{
-        background-image: url("../static/home.jpg");
-        background-size: cover;
-        background-position: inherit;
+
         background-color: #8f8888;
 }
 .home{
         position: absolute;
         top: 0;
-        left: o;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url("../static/home.jpg");
+        background-size: cover;
+        background-position: center center;
 }
 .topnav {
         background-color: #000;
