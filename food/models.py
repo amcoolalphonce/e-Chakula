@@ -1,6 +1,6 @@
 from django.db import models
 
-class pizza(models.Model):
+class Pizza(models.Model):# should begin with a capital yawa
         name = models.CharField(max_length = 120)
         priceM = models.DecimalField(max_digits = 4, decimal_places =2)
         priceL = models.DecimalField(max_digits = 4, decimal_places = 2)
