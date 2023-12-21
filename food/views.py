@@ -9,6 +9,7 @@ def index(request):
 def pizza(request):
         pizzas = Pizza.objects.all()
         context = { 'pizzas' : pizzas}
+        return render(request, 'food/pizza.html', context)
 
 def beverages(request):
         return render(request, 'food/beverages.html')
