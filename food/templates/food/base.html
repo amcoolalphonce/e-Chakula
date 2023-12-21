@@ -3,7 +3,7 @@
         <head>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" />
                 <link rel="stylesheet" href="{% static 'style.css' %}"/>
-                <title>Lizzy Foods</title>
+                <title>{% block title %} {% endblock %}</title>
                 <nav>
                         <div class="topnav">
                                 <a class="active" href="#">Lizy Foods</a>
@@ -15,6 +15,7 @@
                                 <a href="#menu">Menu</a>
                         </div>
                 </nav>
+                
         </head>
         <body>
                 <div class="home">
