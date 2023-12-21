@@ -8,8 +8,9 @@
                 <div class="col-md-8">
                          <div class="row">
                                 {% for pizza in pizzas %}
-                                <div class="col-md-6 m4">
+                                <div class="col-md-6 p 4">
                                       <img class="picture" src="{{ pizza.pImage }}" >
+                                      <h4 class="item-title">{{ pizza.name }}</h4>
                                 </div>
                                 {% endfor %}
                          </div>
