@@ -2,19 +2,21 @@
 <html>
         <head>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" />
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
                 <link rel="stylesheet" href="{% static 'style.css' %}"/>
-                <title>Lizzy Foods</title>
+                <title>{% block title %} {% endblock %}</title>
                 <nav>
                         <div class="topnav">
                                 <a class="active" href="#">Lizy Foods</a>
                                 <a href="beverages">Beverages</a>
                                 <a href="#cdishes">Dishes</a>
                                 <a href="#special">Special</a>
-                                <a href="#desert">Desert</a>
+                                <a href="#pizza">Pizza</a>
                                 <a href="#dinner">Dinner</a>
                                 <a href="#menu">Menu</a>
                         </div>
                 </nav>
+                
         </head>
         <body>
                 <div class="home">

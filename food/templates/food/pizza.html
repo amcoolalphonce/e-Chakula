@@ -1,0 +1,23 @@
+{% extends 'food/base.html' %}
+{% block title %} Pizza {% endblock %}
+
+{% block content %}
+<h2 class="title">Our Pizzas</h2>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-md-8">
+                         <div class="row">
+                                {% for pizza in pizzas %}
+                                <div class="col-md-6 p 4">
+                                      <img class="picture" src="{{ pizza.pImage }}" >
+                                      <h4 class="item-title">{{ pizza.name }}</h4>
+                                </div>
+                                {% endfor %}
+                         </div>
+                </div>
+                <div class="col-md-8">
+                
+                </div>
+        </div>
+</div>
+{% endblock content %}
