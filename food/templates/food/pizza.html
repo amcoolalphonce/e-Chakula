@@ -2,6 +2,7 @@
 {% block title %} Pizza {% endblock %}
 
 {% block content %}
+<h2 class="title">Our Pizzas</h2>
         {% for pizza in pizzas %}
                 <h2>Pizza name : {{ pizza.name }}, price M: {{ pizza.priceM }} $</h2>
         {% endfor %}
