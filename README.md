@@ -9,11 +9,11 @@ Steps when writing the code
 4. Install django using pip install django
 5. Started a project lizzyFoods on the same directory using django-admin startproject lizzyFoods .
 6. Start an app called food using the cmd python manage.py  startapp food
-Create the apps urls.py file
-Run migrations after updating the models using python manage.py makemigrations
-Make migrations using python manage.py migrate
-Create a simple pizza model and update using the shell
-Create a superuser using manage.py createsuperuser
+7. Create the apps urls.py file
+8. Run migrations after updating the models using python manage.py makemigrations
+9. Make migrations using python manage.py migrate
+10. Create a simple pizza model and update using the shell
+11. Create a superuser using manage.py createsuperuser
 
 THE NAVIGATION BAR
 ![Alt text](image.png)
