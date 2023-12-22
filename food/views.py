@@ -14,4 +14,4 @@ def pizza(request):
 def beverages(request):
         beverages = Beverages.objects.all()
         context = {'beverages' : beverages}
-        return render(request, 'food/beverages.html')
+        return render(request, 'food/beverages.html', context)
