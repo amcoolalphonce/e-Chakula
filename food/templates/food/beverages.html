@@ -7,20 +7,14 @@
                 <div class="col-md-8">
                         <h2 class="title">Our Beverages</h2>
                         <div class="row">
-                                {% for pizza in pizzas %}
+                                {% for  beverage in beverages %}
                                 <div class="col-md-6 p 4">
-                                        <img class="picture" src="{{ pizza.pImage }}">
-                                        <h4 class="pt-3">{{ pizza.name }}</h4>
+                                        <img class="picture" src="{{ beverage.bImage }}">
+                                        <h4 class="pt-3">{{ beverage.name }}</h4>
                                         <div class="form-check-inline">
                                                 <label class="form-check-label">
                                                         <input class="form-check-input" type="radio" checked>
-                                                        {{ pizza.priceM }} $
-                                                </label>
-                                        </div>
-                                        <div class="form-check-inline">
-                                                <label class="form-check-label">
-                                                        <input class="form-check-input" type="radio">
-                                                        {{ pizza.priceL }} $
+                                                        {{ beverage.price }} $
                                                 </label>
                                         </div>
                                         <div>
