@@ -15,3 +15,8 @@ def beverages(request):
         beverages = Beverages.objects.all()
         context = {'beverages' : beverages}
         return render(request, 'food/beverages.html', context)
+
+def dishes(request):
+        dishes = Dishes.objects.all()
+        context = {'dishes' : beverages}
+        return render(request, 'food/dishes.html', context)
