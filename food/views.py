@@ -12,4 +12,11 @@ def pizza(request):
         return render(request, 'food/pizza.html', context)
 
 def beverages(request):
-        return render(request, 'food/beverages.html')
+        beverages = Beverages.objects.all()
+        context = {'beverages' : beverages}
+        return render(request, 'food/beverages.html', context)
+
+def dishes(request):
+        dishes = Dishes.objects.all()
+        context = {'dishes' : beverages}
+        return render(request, 'food/dishes.html', context)

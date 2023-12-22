@@ -1,0 +1,33 @@
+{% extends 'food/base.html' %}
+{% block title %} Beverages {% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+        <div class="row text-center ">
+                <div class="col-md-8">
+                        <h2 class="title">Our Dishes</h2>
+                        <div class="row">
+                                {% for dish  in  dishes %}
+                                <div class="col-md-6 p 4">
+                                        <img class="picture" src="{{ dish.dImage }}">
+                                        <h4 class="pt-3">{{ dishes.name }}</h4>
+                                        <div class="form-check-inline">
+                                                <label class="form-check-label">
+                                                        <input class="form-check-input" type="radio" checked>
+                                                        {{ dishes.price }} $
+                                                </label>
+                                        </div>
+                                        <div>
+                                                <button class="btn-info mt-3"> Add to cart</button>
+                                        </div>
+                                        <br>
+                                </div>
+                                {% endfor %}
+                        </div>
+                </div>
+                <div class="col-md-8">
+
+                </div>
+        </div>
+</div>
+{% endblock content %}
