@@ -64,5 +64,5 @@
         height: 200px;
  }
  .item-title{
-        text-align: center;
+        position: relative;
  }
