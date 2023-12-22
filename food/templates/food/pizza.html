@@ -10,7 +10,7 @@
                                 {% for pizza in pizzas %}
                                 <div class="col-md-6 p 4">
                                       <img class="picture" src="{{ pizza.pImage }}" >
-                                      <h4>{{ pizza.name }}</h4>
+                                      <h4 class="pt-3">{{ pizza.name }}</h4>
                                       <div class="form-check-inline">
                                                 <label class="form-check-label">
                                                         <input class="form-check-input" type="radio" checked>
@@ -24,7 +24,7 @@
                                                 </label>
                                         </div>
                                         <div>
-                                                <button class="btn-info"> Add to cart</button>
+                                                <button class="btn-info mt-3"> Add to cart</button>
                                         </div>
                                 </div>
                                 {% endfor %}
