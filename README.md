@@ -14,6 +14,6 @@ Steps when writing the code
 9. Make migrations using python manage.py migrate
 10. Create a simple pizza model and update using the shell
 11. Create a superuser using manage.py createsuperuser
-12. update the models for pizza, beverages 
+12. update the models for pizza, beverages, dishes
 THE NAVIGATION BAR
 ![Alt text](image.png)
