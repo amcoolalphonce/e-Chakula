@@ -15,7 +15,7 @@ Steps when writing the code
 10. Create a simple pizza model and update using the shell
 11. Create a superuser using manage.py createsuperuser
 12. update the models for pizza, beverages, dishes and special offers
-13. Cfeate the html files
+13. Create the html files for the 
     
 THE NAVIGATION BAR
 ![Alt text](image.png)
